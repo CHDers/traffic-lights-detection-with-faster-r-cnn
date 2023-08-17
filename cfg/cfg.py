@@ -20,7 +20,7 @@ pd.set_option('display.max_rows', None)
 pd.set_option('display.width', 1000)
 
 
-plt.style.use(['science', 'no-latex', 'grid'])
+plt.style.use(['science', 'no-latex'])
 plt.rcParams['font.family'] = 'Times New Roman'
 plt.rcParams['font.size'] = 14
 plt.rcParams['axes.linewidth'] = 1.5
@@ -74,4 +74,4 @@ FIGURE_PATH = ROOT_PATH / "assets/figure"
 
 if __name__ == "__main__":
     print(platform.system())
-    print(FILE_ROOT, RESULT_PATH, FIGURE_PATH)
+    print(FILE_ROOT, '\n', RESULT_PATH, '\n', FIGURE_PATH)
